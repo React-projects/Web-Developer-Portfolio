@@ -15,8 +15,8 @@ function Navbar() {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] md-block text-gray-300">
-            My Portfolio
+          <span className="font-bold ml-[10px] md-block text-gray-300 md:display-none">
+       Portfolio
           </span>
         </a>
         <div className="w-[500px] h-full flex flex-row   item-center justify-between md:mr-20 py-[11px]">
