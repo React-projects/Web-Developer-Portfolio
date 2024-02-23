@@ -28,26 +28,27 @@ function HeroContent() {
         <motion.div variants={slideInFromLeft(0.5)}>
           <div className="flex flex-col gap-6 text-6xl font-bold  text-white max-w-[600px] h-auto w-auto">
             <span>
-            Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
+              Providing
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                {" "}
+                the best{" "}
+              </span>
             </span>
             Project experiences
             <motion.p
               variants={slideInFromLeft(0.8)}
               className="text-lg text-gray-400 my-5 max-w-[600px]"
             >
-              I&apos;m a             Font End Developer Portfolio
- with experience in
+              I&apos;m a Font End Developer Portfolio with experience in
               Website, Mobile, and Software development. Check out my projects
               and skills.
-             
             </motion.p>
-            <motion.a
-                variants={slideInFromLeft(1)}
-                className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px] text-2xl"
-              >
-                Learn more!
-              </motion.a>
+            {/* <motion.a
+              variants={slideInFromLeft(1)}
+              className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px] text-2xl"
+            >
+              Learn more!
+            </motion.a> */}
           </div>
         </motion.div>
       </div>
@@ -56,8 +57,12 @@ function HeroContent() {
         variants={slideInFromRight(0.9)}
         className="w-full h-full  flex items-center justify-center"
       >
-       <Image src="assets/social/mainIconsdark.svg" alt="work-icons" height={650} width={650}/>
-    
+        <Image
+          src="assets/social/mainIconsdark.svg"
+          alt="work-icons"
+          height={650}
+          width={650}
+        />
       </motion.div>
     </motion.div>
   );
