@@ -39,8 +39,8 @@ function HeroContent() {
               variants={slideInFromLeft(0.8)}
               className="text-lg text-gray-400 my-5 max-w-[600px]"
             >
-              I&apos;m a Font End Developer Portfolio with experience in
-              Website, Mobile, and Software development. Check out my projects
+              I&apos;m a Font End  And this My Portfolio and I have more than three years of experience in
+              Website and web development. Check out my projects
               and skills.
             </motion.p>
             {/* <motion.a
