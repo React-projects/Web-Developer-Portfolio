@@ -1,10 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-    
-    slideInFromTop,
-  } from "@/app/utils/motion";import Image from "next/image";
+import { slideInFromTop } from "@/app/utils/motion";
+import Image from "next/image";
 
 const Encryption = () => {
   return (
@@ -59,7 +57,7 @@ const Encryption = () => {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="assets/vidoes/encryption.webm/"
+          src="assets/vidoes/encryption.webm"
         />
       </div>
     </div>
